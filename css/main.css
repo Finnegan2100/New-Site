@@ -1,0 +1,167 @@
+body {
+    background-image:url(../bgNew.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+#aboutli {
+    
+    position: absolute;
+    left: 33%;
+    top: 35%;
+}
+
+#skillsetli {
+    
+    position: absolute;
+    left: 43%;
+    top: 35%;
+}
+
+#workli {
+    
+    position: absolute;
+    left: 53%;
+    top: 35%;
+}
+
+#gamesli {
+    
+    position: absolute;
+    left: 63%;
+    top: 35%;
+}
+
+#homeButton {
+    
+    position: absolute;
+    color: #fff;
+    left: 47%;
+    top: 207%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#homeButton2 {
+    
+    position: absolute;
+    color: #fff;
+    left: 47%;
+    top: 310%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#homeButton3 {
+    
+    position: absolute;
+    color: #fff;
+    left: 47%;
+    top: 413%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#homeButton4 {
+    
+    position: absolute;
+    color: #fff;
+    left: 47%;
+    top: 515%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+    
+    text-decoration: none;
+    color: #000000;
+}
+
+ul { 
+    
+    list-style-type: none;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000000;
+}
+
+#footer {
+    
+   height: 100%;
+}
+
+#credits {
+    
+    position: absolute;
+    color: #fff;
+    left: 41%;
+    top: 600%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#page1 {
+    
+    max-width: 1900px;
+	width: 90%;
+	margin: -15px auto 0px auto ;
+	height: 800px;
+	/*background-color: #FFF;
+    background-image:url(../images/top2.png);*/
+    background-size: 100%;                    
+    background-repeat: no-repeat;
+}
+
+#page2 {
+    
+    max-width: 1800px;
+	width: 90%;
+	margin: -55px auto 0px auto ;
+	height: 700px;
+	/*background-color: #FFF;
+    background-image:url(../images/middle1b.png);*/
+    background-size: 100%;                    
+    background-repeat: no-repeat;
+}
+
+#page3 {
+    
+    max-width: 1800px;
+	width: 90%;
+	margin: -70px auto 0px auto ;
+	height: 689;
+	/*background-color: #FFF;
+    background-image:url(../images/middle2b.png);*/
+    background-size: 100%;                    
+    background-repeat: no-repeat;
+}
+
+#page4 {
+    
+    max-width: 1800px;
+	width: 90%;
+	margin: -55px auto 0px auto ;
+	height: 689;
+	/*background-color: #FFF;
+    background-image:url(../images/middle3b.png);*/
+    background-size: 100%;                    
+    background-repeat: no-repeat;
+}
+
+#page5 {
+    
+    max-width: 1800px;
+	width: 90%;
+	margin: -55px auto 0px auto ;
+	height: 602;
+	/*background-color: #FFF;
+    background-image:url(../images/bottom2.png);*/
+    background-size: 100%;                    
+    background-repeat: no-repeat;
+}
+
+#canvas {
+    
+    background-color: #fff;
+    position: absolute;
+    width: 1120px;
+    height: 400px;
+    left: 6%;
+    top: 535%;
+}
