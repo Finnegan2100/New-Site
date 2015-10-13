@@ -3,6 +3,102 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 20px; */
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    margin: 0px;
+    padding: 0px; 
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+
+#page2 {
+    position:relative;
+    float:left;
+    clear:none;
+    overflow:hidden;
+}
+#page2 img {
+    position:relative;
+    z-index:1;
+}
+#page2 p {
+    
+   display:block;
+	  position:absolute;
+	  width:100%;
+	  top:30%;
+	  left:0;
+	  z-index:2;
+	  text-align:center;   
+}
+
+#page3 {
+    position:relative;
+    float:left;
+    clear:none;
+    overflow:hidden;
+}
+#page3 img {
+    position:relative;
+    z-index:1;
+}
+#page3 p {
+    
+   display:block;
+	  position:absolute;
+	  width:100%;
+	  top:30%;
+	  left:0;
+	  z-index:2;
+	  text-align:center;   
+}
+
+#page4 {
+    position:relative;
+    float:left;
+    clear:none;
+    overflow:hidden;
+}
+#page4 img {
+    position:relative;
+    z-index:1;
+}
+#page4 p {
+    
+   display:block;
+	  position:absolute;
+	  width:100%;
+	  top:30%;
+	  left:0;
+	  z-index:2;
+	  text-align:center;   
+}
+
+#page5 {
+    position:relative;
+    float:left;
+    clear:none;
+    overflow:hidden;
+}
+#page5 img {
+    position:relative;
+    z-index:1;
+}
+#page5 p {
+    
+   display:block;
+	  position:absolute;
+	  width:100%;
+	  top:30%;
+	  left:0;
+	  z-index:2;
+	  text-align:center;   
 }
 
 #aboutli {
@@ -96,68 +192,7 @@ ul {
     top: 600%;
     font-family: Verdana, Geneva, sans-serif;
 }
-/*
-#page1 {
 
-    max-width: 1900px;
-	width: 100%;
-    height: 100%;
-	<!--*margin: -15px auto 0px auto ; -->
-	background-color: #FFF;
-    background-image:url(../images/top.png);
-    background-size: cover;
-    background-size: 100%;                    
-    background-repeat: no-repeat;
-  
-}
-
-#page2 {
-    
-
-	width: 100%;
-    height: 100%;
-	background-color: #FFF;
-    background-image:url(../images/middle1.png);
-    background-size: cover;                    
-    background-repeat: no-repeat;
-    
-}
-
-#page3 {
-    
-    max-width: 1800px;
-	width: 90%;
-    height: 100%;
-	background-color: #FFF;
-    background-image:url(../images/middle2b.png);
-    background-size: cover;                   
-    background-repeat: no-repeat;
-}
-
-#page4 {
-    
-    max-width: 1800px;
-	width: 90%;
-    height: 100%;
-	background-color: #FFF;
-    background-image:url(../images/middle3b.png);
-    background-size: cover;                  
-    background-repeat: no-repeat;
-}
-
-#page5 {
-    
-    max-width: 1800px;
-	width: 90%;
-    height: 100%;
-	margin: -55px auto 0px auto ;
-	height: 602;
-	background-color: #FFF;
-    background-image:url(../images/bottom2.png);
-    background-size: cover;                  
-    background-repeat: no-repeat;
-}
-*/
 #canvas {
     
     /*Make function to resize this in JS */
