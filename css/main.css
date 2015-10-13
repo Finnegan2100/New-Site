@@ -27,13 +27,13 @@ html {
     position:relative;
     z-index:1;
 }
-#page2 p {
+#page2 pre {
     
    display:block;
 	  position:absolute;
-	  width:100%;
-	  top:30%;
-	  left:0;
+	  width:50%;
+	  top: 35%;
+	  left:10%;
 	  z-index:2;
 	  text-align:center;   
 }
@@ -48,13 +48,13 @@ html {
     position:relative;
     z-index:1;
 }
-#page3 p {
+#page3 pre {
     
    display:block;
 	  position:absolute;
 	  width:100%;
-	  top:30%;
-	  left:0;
+	  top:21%;
+	  right:5%;
 	  z-index:2;
 	  text-align:center;   
 }
@@ -69,7 +69,7 @@ html {
     position:relative;
     z-index:1;
 }
-#page4 p {
+#page4 pre {
     
    display:block;
 	  position:absolute;
@@ -90,12 +90,12 @@ html {
     position:relative;
     z-index:1;
 }
-#page5 p {
+#page5 pre {
     
    display:block;
 	  position:absolute;
 	  width:100%;
-	  top:30%;
+	  top:58%;
 	  left:0;
 	  z-index:2;
 	  text-align:center;   
@@ -166,6 +166,10 @@ html {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+p {
+    font-family: Verdana;
+}
+
 a {
     
     text-decoration: none;
@@ -187,20 +191,11 @@ ul {
 #credits {
     
     position: absolute;
-    color: #fff;
-    left: 41%;
-    top: 600%;
+    left: 35%;
     font-family: Verdana, Geneva, sans-serif;
 }
 
 #canvas {
     
-    /*Make function to resize this in JS */
-    
-    background-color: #fff;
-    position: absolute;
-    width: 1120px;
-    height: 400px;
-    left: 6%;
-    top: 535%;
+    width: 100%;
 }
